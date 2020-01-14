@@ -1,0 +1,187 @@
+body {
+padding: 0;
+margin: 0;
+font-family: dotum, sans-serif, gulim, "돋움", "굴림";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color:red;
+}
+.sch_btn {
+  background-color: #ffffff;
+  border: none;
+}
+.fix_top {
+  width: auto;
+  height: 40px;
+  background-color: #EAEAEA;
+  margin-bottom: 20px;
+}
+#fix_top_favorite {
+  width: 40%;
+  text-align: left;
+  float: left;
+  padding-left: 20px;
+}
+
+#fix_top_logmem {
+  float: right;
+  width: 40%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.fix_top_logo {
+  width: auto;
+  height: 150px;
+  text-align: center;
+}
+
+.fix_top_search {
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.fix_top_cate {
+  width: auto;
+  height: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home_center {
+  padding-left: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 600px;
+}
+.cate_center {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+#left_cate {
+  padding-left: 20px;
+  border-right: 1px solid #EAEAEA;
+}
+
+#right_content {
+  padding-left: 30px;
+}
+
+.fix_bottom {
+  padding-top: 20px;
+  margin-top: 40px;
+  width: auto;
+  height: 140px;
+  background-color: #EAEAEA;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 20px;
+}
+
+
+.list-table {
+	margin-top: 40px;
+}
+.list-table thead th{
+	height:40px;
+	border-top:2px solid #09C;
+	border-bottom:1px solid #CCC;
+	font-weight: bold;
+	font-size: 17px;
+}
+.list-table tbody td{
+	text-align:center;
+	padding:10px 0;
+	border-bottom:1px solid #CCC; height:20px;
+	font-size: 14px
+}
+#write_btn {
+  position: absolute;
+	margin-top:20px;
+}
+
+#write_area {
+	margin-top:70px;
+	font-size:14px;
+}
+#in_name {
+	margin-top:30px;
+  font-size: 14px;
+}
+#in_title {
+	margin-top:30px;
+}
+#in_title textarea {
+	font-weight:bold;
+	font-size:26px;
+	color:#333;
+	width: 900px;
+	border:none;
+	resize: none;
+}
+.wi_line {
+	border:solid 1px lightgray;
+  width: 700px;
+	margin-top:10px;
+
+}
+#in_content {
+	margin-top:10px;
+}
+#in_content textarea {
+	font:14px;
+	color:#333;
+	width: 700px;
+	height: 400px;
+	resize: none;
+}
+.bt_se {
+  margin-left: 605px;
+	margin-top:20px;
+}
+.bt_se button {
+	width:100px;
+	height:30px;
+}
+
+#board_read {
+	width:900px;
+	position: relative;
+	word-break:break-all;
+}
+#user_info {
+	font-size:14px;
+}
+#user_info ul li {
+	float:left;
+	margin-left:10px;
+}
+#bo_line {
+	width:880px;
+	height:2px;
+	background: #09C;
+	margin-top:20px;
+}
+#bo_content {
+	margin-top:20px;
+}
+#bo_ser {
+	font-size:14px;
+	color:#333;
+	position: absolute;
+  left:20px;
+}
+#bo_ser > ul > li {
+	float:left;
+	margin-left:10px;
+}
